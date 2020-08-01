@@ -1,6 +1,9 @@
 {
 	"name": "weather-journal-app",
 	"version": "1.0.0",
+	"engines": {
+		"node": "12.x"
+	},
 	"description": "## Overview This Project requires you to create an asynchronous web app that uses an open weather API to retrieve and store data based on the zip code entered.",
 	"main": "server.js",
 	"scripts": {
