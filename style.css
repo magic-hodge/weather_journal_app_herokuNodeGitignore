@@ -1,0 +1,223 @@
+/* Styling for the Weather Journal App */
+
+* {
+	margin: 0px auto;
+}
+
+body {
+	background: white;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+		/* grid-template-columns: */
+	height: 100vh;
+	background-size: cover;
+	color: white;
+	justify-content: center;
+	flex-direction: column;
+	grid-gap: 1em;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.holder {
+	margin: 0px auto;
+}
+
+.entry {
+	background: black;
+	opacity: .75;
+	border-radius: 5px;
+}
+
+.journalEntry {
+	width: 35%;
+	height: 200px;
+}
+
+#entryHolder {
+	
+}
+
+#date {
+
+}
+
+#temp {
+
+}
+
+#content {
+
+}
+
+#time {
+	font-size: 70px;
+}
+
+.headline {
+	margin-top: 50px;
+}
+
+.title {
+
+}
+
+.submitBox {
+	height: 40px;
+	width: 100%;
+}
+
+.feelings {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#submit {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 15%;
+	margin: 0px auto;
+	font-weight: bold;
+	opacity: 0.75;
+	color: white;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background-color: black;
+	background-opacity: 0.75;
+	transition: 1s ease;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.zipCode {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.75;
+}
+
+#zip {
+	background-color: black;
+	opacity: 0.75;
+	transition: 1s ease;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#zip:hover {
+	background-color: black;
+	opacity: 0.85;
+	transition: 1s ease;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#feelings {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+	font-weight: bold;
+	opacity: 0.75;
+	color: white;
+}
+
+#feelings:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 1s ease;
+	border: 1px solid black;
+}
+
+.spanField {
+	color: white;
+}
+
+.spanField:hover {
+
+}
+
+/* Basic Styling to Override Default For Basic HTML Elements */
+
+label{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 27px;
+	margin: 0px auto;
+}
+
+input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width: 320px;
+	background: black;
+	opacity: .75;
+	color: white;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 4px 5px #444;
+}
+
+input: hover {
+	background-color: black;
+	background-opacity: 0.75;
+	transition: 1s ease;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+textarea {
+	background: black;
+	opacity: .75;
+	color: white;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px
+}
+
+/*Reset stely for HTML element on active to have no border */
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+/* Style for Placeholder Text */
+
+::placeholder { /* Firefox, Chrome, Opera */
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
